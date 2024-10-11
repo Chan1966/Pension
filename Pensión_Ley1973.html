@@ -1,0 +1,740 @@
+<html lang="es" >
+<head>
+
+
+<thead align="center"> <h1 class="wp-block-heading"> ¿Cuanto me toca de pensión, soy ley 1973? </h1> </p>
+
+<div class="alert  alert-warning" id="divMensajeInfo" style="text-align:justify">
+    <strong>
+        Estas utilizando un simulador para conocer el importe aproximado de tu pensión, con base en los datos que proporciones. El resultado que arroje; no es vinculatorio al trámite de solicitud de pensión, ni tiene validez alguna.
+    </strong>
+    <br/>
+    <br/>
+    Para el ejercicio de simulación necesitas:
+    <br/>
+    <ul>
+        <li>A&ntilde;o en el que planeas realizar tu trámite de pensión ante el Seguro Social.</li>
+        <li>A&ntilde;os cumplidos.</li>
+        <li>Semanas cotizadas bajo la Ley del Seguro Social.</li>
+        <li>El promedio de tus salarios base de cotizaci&oacute;n de los &uacute;ltimos cinco a&ntilde;os.</li>
+    </ul>
+    <br/>
+    El c&aacute;lculo que se muestra, es un estimado del importe de pensi&oacute;n considerando los supuestos de la Ley del Seguro Social vigente hasta el 30 de junio de 1997.
+
+<h2 class="wp-block-heading"> Obten el importe mensual de pensión por año, de forma fácil y rápida. </h2>
+
+Recuerda que para obtener una pensi&oacute;n de cesant&iacute;a en edad avanzada o vejez debes cumplir con lo siguiente:
+    <br/>
+    <ul>
+        <li>Tener 60 a&ntilde;os cumplidos a la fecha de solicitud de pensi&oacute;n.</li>
+        <li>Estar dado de baja en el r&eacute;gimen obligatorio del Seguro Social, es decir, no tener trabajo remunerado.</li>
+        <li>Estar dentro del periodo de la conservaci&oacute;n de derechos.</li>
+        <li>Tener al menos 500 semanas cotizadas.</li>
+        <li>Tener cotizaciones antes del 1 de julio de 1997, para poder elegir la aplicaci&oacute;n de la Ley del Seguro Social vigente hasta el 30 de junio de 1997.</li>
+    </ul>
+
+<h2 class="wp-block-heading"> Te dejo una calculadora con la que puedes calcular y obtener el importe mensual de tu pensión </h2>
+
+
+
+<p> 1.- Seleccione el año en que va a cotizar. </strong></p>
+<p> 2.- Seleccione su edad. </strong></p>
+<p> 3.- Seleccione el total de semanas cotizadas ante el IMSS. <strong> Nota: Seleccione el rango que se aproximen al acumulado de semanas, sin rebasar el siguiente nivel</strong></p>
+<p> 4.- Capture el salario Diario Promedio de Cotización. <strong>(recuerde que es Salario Diario)</strong></p>
+<p> 5.- Presione el botón de calcular. </strong></p>
+
+
+
+<meta charset="utf-8">
+    <title>Calculadora Modalidad 40 IMSS</title>
+    <style>
+      body {
+        background-color: #8ec973;
+      }
+
+      h3 {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 24px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        background-color: #dcf7a1;
+        border-radius: 10px;
+        margin: 0 auto;
+        max-width: 500px;
+      }
+
+      label {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+
+      input {
+        border-radius: 5px;
+        padding: 5px;
+        border: none;
+        margin-left: 20px;
+        font-size: 16px;
+      }
+	  select {
+        border-radius: 5px;
+        padding: 5px;
+        margin-left: 20px;
+        font-size: 16px;
+      }
+label {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      input {
+        border-radius: 5px;
+        padding: 5px;
+        border: none;
+        margin-left: 20px;
+        font-size: 16px;
+      }
+      select {
+        border-radius: 5px;
+        padding: 5px;
+        margin-left: 20px;
+        font-size: 16px;
+      }
+label {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+
+      input {
+        border-radius: 5px;
+        padding: 5px;
+        border: none;
+        margin-left: 20px;
+        font-size: 16px;
+      }
+	  select {
+        border-radius: 5px;
+        padding: 5px;
+        margin-left: 20px;
+        font-size: 16px;
+      }
+      button {
+        border-radius: 5px;
+        padding: 10px 40px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        margin-top: 20px;
+        cursor: pointer;
+        font-size: 18px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      #resultado {
+        margin-top: 20px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+      }
+     #resultado {
+        margin-top: 20px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+    </style>
+  
+  
+    <h3>Checa cuanto te corresponde de pensión, si perteneces al régimen de ley 1973</h3>
+    <form action="javascript:void(0)">
+      <label for="anio">Selecciona el año en el que te quieres pensionar:</label>
+      <select id="anio" name="anio">
+        <option value="2010">2010</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+        <option value="2026">2026</option>
+        <option value="2027">2027</option>
+        <option value="2028">2028</option>
+        <option value="2029">2029</option>
+        <option value="2030">2030</option>
+      </select>
+      <br>
+      <br>
+	 
+    <form action="javascript:void(0)">
+      <label for="age">Seleccione edad a la que desea retirarse:</label>
+      <select id="age" name="age">
+        <option value="60">60</option>
+        <option value="61">61</option>
+        <option value="62">62</option>
+        <option value="63">63</option>
+        <option value="64">64</option>
+        <option value="65">65</option>
+        </select>
+		<br>
+        <br>
+		 <form action="javascript:void(0)">
+      <label for="weeks">Seleccione las semanas con la que se va a pensionar:</label>
+      <select id="weeks" name="weeks">
+         <option value="500">500</option>
+        <option value="513">513</option>
+        <option value="527">527</option>
+        <option value="566">566</option>
+        <option value="579">579</option>
+        <option value="618">618</option>
+		<option value="631">631</option>
+        <option value="670">670</option>
+        <option value="683">683</option>
+        <option value="722">722</option>
+        <option value="735">735</option>
+        <option value="774">774</option>
+		<option value="787">787</option>
+        <option value="826">826</option>
+        <option value="839">839</option>
+        <option value="878">878</option>
+        <option value="891">891</option>
+        <option value="930">930</option>
+		<option value="943">943</option>
+        <option value="982">982</option>
+        <option value="995">995</option>
+        <option value="1034">1034</option>
+        <option value="1047">1047</option>
+        <option value="1086">1086</option>
+		<option value="1099">1099</option>
+        <option value="1138">1138</option>
+        <option value="1151">1151</option>
+        <option value="1190">1190</option>
+        <option value="1203">1203</option>
+        <option value="1242">1242</option>
+		<option value="1255">1255</option>
+        <option value="1294">1294</option>
+        <option value="1307">1307</option>
+        <option value="1346">1346</option>
+        <option value="1359">1359</option>
+        <option value="1398">1398</option>
+		<option value="1411">1411</option>
+        <option value="1450">1450</option>
+        <option value="1463">1463</option>
+        <option value="1502">1502</option>
+        <option value="1515">1515</option>
+        <option value="1554">1554</option>
+		<option value="1567">1567</option>
+        <option value="1606">1606</option>
+        <option value="1619">1619</option>
+        <option value="1658">1658</option>
+        <option value="1671">1671</option>
+        <option value="1710">1710</option>
+		<option value="1723">1723</option>
+        <option value="1762">1762</option>
+		<option value="1775">1775</option>
+        <option value="1814">1814</option>
+        <option value="1827">1827</option>
+        <option value="1866">1866</option>
+        <option value="1879">1879</option>
+        <option value="1918">1918</option>
+		<option value="1931">1931</option>
+        <option value="1970">1970</option>
+        <option value="1983">1983</option>
+        <option value="2022">2022</option>
+        <option value="2035">2035</option>
+        <option value="2074">2074</option>
+		<option value="2087">2087</option>
+        <option value="2126">2126</option>
+        <option value="2139">2139</option>
+        <option value="2178">2178</option>
+        <option value="2191">2191</option>
+        <option value="2230">2230</option>
+		<option value="2243">2243</option>
+        <option value="2282">2282</option>
+        <option value="2295">2295</option>
+        <option value="2334">2334</option>
+        </select>
+      <br>
+      <br>
+      <label for="salario">Salario DIARIO de Cotización:</label>
+      <input type="number" id="salario" name="salario" step="0.01" min="0">
+      <br>
+      <br>
+      <button type="submit" id="calcular">Calcular el importe de pensión Mensual </button>
+    </form>
+    <br>
+    <div id="resultado"></div>
+    
+
+    <script>
+  // Obtener los elementos del formulario
+  const yearSelect = document.getElementById('anio');
+  const year2Select = document.getElementById('age');
+  const year3Select = document.getElementById('weeks');
+  const salaryInput = document.getElementById('salario');
+  const calculateButton = document.getElementById('calcular');
+
+  // Definir las variables necesarias para los cálculos
+  let year;
+  let year2;
+  let weeks;
+  let variable;
+  let salary;
+  let result;
+
+  // Agregar un evento de escucha para el botón de calcular
+  calculateButton.addEventListener('click', function(event) {
+    event.preventDefault();
+    // Obtener el año seleccionado y convertirlo en un número
+    year = parseInt(yearSelect.value);
+    // Obtener la variable correspondiente al año
+    switch (year) {
+      case 2010:
+      case 2011:
+      case 2012:
+      case 2013:
+      case 2014:
+      case 2015:
+      case 2016:
+      case 2017:
+      case 2018:
+      case 2019:
+      case 2020:
+      case 2021:
+      case 2022:
+        variable2 = 0.10075;
+        break;
+      case 2023:
+        variable2 = 0.11166;
+        break;
+      case 2024:
+        variable2 = 0.12256;
+        break;
+      case 2025:
+        variable2 = 0.13347;
+        break;
+      case 2026:
+        variable2 = 0.14438;
+        break;
+      case 2027:
+        variable2 = 0.15528;
+        break;
+      case 2028:
+        variable2 = 0.16619;
+        break;
+      case 2029:
+        variable2 = 0.17709;
+        break;
+      case 2030:
+        variable2 = 0.18800;
+        break;
+      default:
+        variable2 = 0;
+        break;
+    }
+	// Obtener la edad seleccionado y convertirlo en un número
+    year2 = parseInt(year2Select.value);
+    // Obtener la variable correspondiente a la edad
+    switch (year2) {
+      case 60:
+        variable = 0.75;
+        break;
+      case 61:
+        variable = 0.80;
+        break;
+      case 62:
+        variable = 0.85;
+        break;
+      case 63:
+        variable = 0.90;
+        break;
+      case 64:
+        variable = 0.95;
+        break;
+      case 65:
+        variable = 1.00;
+        break;
+        default:
+        variable = 0;
+        break;
+    }
+	// Obtener el año seleccionado y convertirlo en un número
+    year3 = parseInt(year3Select.value);
+    // Obtener la variable correspondiente a las semanas
+    switch (year3) {
+      case 500:
+        variable3 = 0.1659;
+		break;
+      case 513:
+        variable3 = 0.1816;
+        break;
+      case 527:
+        variable3 = 0.1972;
+        break;
+      case 566:
+        variable3 = 0.2129;
+        break;
+      case 579:
+        variable3 = 0.2285;
+        break;
+      case 618:
+        variable3 = 0.2441;
+        break;
+      case 631:
+        variable3 = 0.2598;
+        break;
+      case 670:
+        variable3 = 0.2754;
+        break;
+      case 683:
+        variable3 = 0.2910;
+        break;
+      case 722:
+        variable3 = 0.3067;
+        break;
+      case 735:
+        variable3 = 0.3223;
+        break;
+      case 774:
+        variable3 = 0.3380;
+        break;
+      case 787:
+        variable3 = 0.3536;
+        break;
+      case 826:
+        variable3 = 0.3692;
+        break;
+      case 839:
+        variable3 = 0.3849;
+        break;
+      case 878:
+        variable3 = 0.4005;
+        break;
+      case 891:
+        variable3 = 0.4161;
+        break;
+      case 930:
+        variable3 = 0.4318;
+        break;
+      case 943:
+        variable3 = 0.4474;
+        break;
+      case 982:
+        variable3 = 0.4631;
+        break;
+      case 995:
+        variable3 = 0.4787;
+        break;
+      case 1034:
+        variable3 = 0.4943;
+        break;
+      case 1047:
+        variable3 = 0.5100;
+        break;
+      case 1086:
+        variable3 = 0.5256;
+        break;
+      case 1099:
+        variable3 = 0.5412;
+        break;
+      case 1138:
+        variable3 = 0.5569;
+        break;
+      case 1151:
+        variable3 = 0.5725;
+        break;
+      case 1190:
+        variable3 = 0.5881;
+        break;
+      case 1203:
+        variable3 = 0.6038;
+        break;
+      case 1242:
+        variable3 = 0.6194;
+        break;
+      case 1255:
+        variable3 = 0.6351;
+        break;
+      case 1294:
+        variable3 = 0.6507;
+        break;
+      case 1307:
+        variable3 = 0.6663;
+        break;
+      case 1346:
+        variable3 = 0.6820;
+        break;
+      case 1359:
+        variable3 = 0.6976;
+        break;
+      case 1398:
+        variable3 = 0.7132;
+        break;
+      case 1411:
+        variable3 = 0.7289;
+        break;
+      case 1450:
+        variable3 = 0.7445;
+        break;
+      case 1463:
+        variable3 = 0.7602;
+        break;
+      case 1502:
+        variable3 = 0.7758;
+        break;
+      case 1515:
+        variable3 = 0.7914;
+        break;
+      case 1554:
+        variable3 = 0.8071;
+        break;
+      case 1567:
+        variable3 = 0.8227;
+        break;
+      case 1606:
+        variable3 = 0.8383;
+        break;
+      case 1619:
+        variable3 = 0.8540;
+        break;
+      case 1658:
+        variable3 = 0.8696;
+        break;
+      case 1671:
+        variable3 = 0.8853;
+        break;
+      case 1710:
+        variable3 = 0.9009;
+        break;
+      case 1723:
+        variable3 = 0.9165;
+        break;
+      case 1762:
+        variable3 = 0.9322;
+        break;
+      case 1775:
+        variable3 = 0.9478;
+        break;
+      case 1814:
+        variable3 = 0.9634;
+        break;
+      case 1827:
+        variable3 = 0.9791;
+        break;
+      case 1866:
+        variable3 = 0.9947;
+        break;
+      case 1879:
+        variable3 = 1.0103;
+        break;
+      case 1918:
+        variable3 = 1.0260;
+        break;
+      case 1931:
+        variable3 = 1.0416;
+        break;
+      case 1970:
+        variable3 = 1.0573;
+        break;
+      case 1983:
+        variable3 = 1.0729;
+        break;
+      case 2022:
+        variable3 = 1.0885;
+        break;
+      case 2035:
+        variable3 = 1.1042;
+        break;
+      case 2074:
+        variable3 = 1.1198;
+        break;
+      case 2087:
+        variable3 = 1.1354;
+        break;
+      case 2126:
+        variable3 = 1.1511;
+        break;
+      case 2139:
+        variable3 = 1.1667;
+		break;
+      case 2178:
+        variable3 = 1.1824;
+        break;
+      case 2191:
+        variable3 = 1.1980;
+        break;
+      case 2230:
+        variable3 = 1.2136;
+        break;
+      case 2243:
+        variable3 = 1.2293;
+        break;
+      case 2282:
+        variable3 = 1.2449;
+        break;
+      case 2295:
+        variable3 = 1.2605;
+		break;
+      case 2334:
+        variable3 = 1.2762;
+        break;
+      default:
+        variable3 = 0;
+        break;
+    }
+    // Obtener el salario ingresado por el usuario y convertirlo en un número
+     salary = parseFloat(salaryInput.value);
+
+    // Realizar el cálculo del resultado
+     result = salary * 30.41800 * variable * variable3
+	 
+	  // Calculate the AnnualPension
+    const AnnualPension = result * 12;
+
+    // Mostrar el resultado en la página
+   // Display the result in the page
+	 
+	 
+	 
+
+	 // Mostrar el resultado en la página
+    const resultadoDiv = document.getElementById('resultado');
+    resultadoDiv.innerHTML = `En el año ${year} con un salario de cotización de: ${salary.toLocaleString('es-MX', { style: 'currency', currency: 'MXN' })} El importe mensual de tu pensión es de: ${result.toLocaleString('es-MX', { style: 'currency', currency: 'MXN' })}    Recibiendo un total de : ${AnnualPension.toLocaleString('es-MX', { style: 'currency', currency: 'MXN' })} anual`;
+
+   
+  });
+</script>
+<br>
+<br>
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+	<div class="container">
+		<header class="section-header">
+			<h5>Notas</h5>
+		</header>
+		<div class="row">
+			<div class="col">
+				<ol>
+					<li>El cálculo incluye el 15% de ayuda Asistencial (soledad) o 15% por beneficiario (esposa). Art. 164 Frac. IV o V de la Ley del Seguro Social de 1973.</li>
+					<li>El cálculo no incluye asignaciones familiares(hijos, padres)</li>
+					<li>Cada año, en el mes de noviembre, el Instituto paga un importe equivalente a un mes de pensión, por concepto de aguinaldo.)</li>
+					<li>La pensión es ingreso bruto, falta restar el ISR. </li>
+				</ol>
+				<p>Este calculo es solamente informativo de acuerdo a los conceptos publicados por el IMSS, el calculo final lo determina el Instituto.<br>
+				Ninguno de estos cálculos son grabados en nuestro servidor</p>
+			</div>
+		</div>
+	</div>
+		
+
+
+
+
+
+
+
+
+
+
+<h3 class="has-theme-palette-3-color has-text-color wp-block-heading">Valores actuales de la UMA y Pensión Mínima Garantizada&nbsp;2023</h3>
+
+
+<table class="default">
+
+  <thead>
+    <tr>
+      <th>    Año     </th>
+	  <br>
+	  <br>
+	  .columna {
+    margin: 20px
+      <th>Valor diario</th>
+      <th>Tope Máximo: 25 UMAS</th>
+      <th>Salario Mensual topado</th>
+	  <th>Inversión Mensual M40 topado</th>
+	  <th>Pensión Mínima Garantizada actualizada</th>
+    </tr>
+    <tr>
+      <td><strong>2024</strong></td>
+      <td><strong>$108.57</strong></td>
+      <td><strong>$2,714.25</strong></td>
+      <td><strong>$81,427.50</strong></td>
+	  <td><strong>$10,312.41</strong></td>
+	  <td><strong>$8,404.50</strong></td>
+	  
+	  </tr>
+	  <tr>
+      <td>2023</td>
+      <td>$103.74</td>
+      <td>$2,593.50</td>
+      <td>$77,805.00</td>
+	  <td>$8,977.30</td>
+	  <td>$7,551.60</td
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2022</td>
+      <td>$96.22</td>
+      <td>$2,405.50</td>
+      <td>$72,165.00</td>
+	  <td>$7,7512.98</td>
+	  <td>$6,588.72</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>$89.62</td>
+      <td>$2,240.50</td>
+      <td>$67,215.00</td>
+	  <td>$6,997.64</td>
+	  <td>$5,798.20</td
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>$86.88</td>
+      <td>$2,172.00</td>
+      <td>$65,160.00</td>
+	  <td>$6,783.70</td>
+	  <td>$5,200.85</td
+    </tr>
+    <tr>
+      <td>2019</td>
+      <td>$84.49</td>
+      <td>$2,112.25</td>
+      <td>$63,367.50</td>
+	  <td>$6,597.08</td>
+	  <td>$4,456.54</td
+    </tr
+  </tbody>
+</table>
+<figcaption class="wp-element-caption"></figcaption></figure></p>
+
+ <span kjb-settings-id="sections_footer_settings_copyright" class="footer__copyright">&copy; 2024 SP Asesor en Pensiones IMSS y Modalidad 40</span>
+
+</div><!-- .entry-content .clear -->
+</div>
